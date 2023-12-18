@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+
+  
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("/font/roboto/Roboto-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: 'RobotoMono';
+    font-weight: 400;
+    src: url('/font/RobotMono/static/RobotoMono-Regular.ttf');
+}
+
+}
+
+@tailwind utilities;
