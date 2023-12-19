@@ -9,6 +9,7 @@ module.exports = {
       primary_extralight: "#e7f2bd",
       secondary: "#5a6273",
       secondary_light: "#f2f2f2",
+      white: "#ffffff"
     },
 
     //extend

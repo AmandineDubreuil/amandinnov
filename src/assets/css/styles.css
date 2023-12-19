@@ -1,0 +1,26 @@
+.hideNav {
+    position: relative;
+    left: -400px;
+    top: -400px;
+    opacity: 0;
+    background-color: #ffffff00;
+
+  }
+  .showNav {
+    left: 0;
+    top: 7.5rem;
+    opacity: 1;
+    background-color:#ffffff;
+  }
+
+  @media (min-width: 768px) {
+
+
+  .hideNav {
+    left: 0;
+    opacity: 1;
+    top: 0;
+    background-color: #ffffff;
+
+  }
+}
