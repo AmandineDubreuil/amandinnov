@@ -44,7 +44,7 @@ section {
   text-align: center;
 }
 .entete .bounce {
-  animation: bounce 2s ease;
+  animation: bounce 4s ease;
 }
 
 @keyframes bounce {

@@ -48,9 +48,15 @@ img {
 .hidden {
   display: none;
 }
+.df {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .bold {
   font-weight: bold;
 }
+
 /* général titres */
 h1 {
   padding: 1rem;
@@ -190,6 +196,43 @@ header {
   display: none;
 }
 
+
+/* footer.php  */
+
+footer {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-light);
+  padding-top: 1rem ;
+}
+footer .dfparent{
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .laius {
+  font-size: .7rem;
+  padding-bottom: .5rem;
+}
+footer .dfparent{
+  display: flex;
+  flex-direction: column;
+
+}
+footer .dfparent .df {
+  width: 80vw;
+  justify-content: space-between;
+}
+footer .mentionsContact {
+  padding-bottom: .7rem;
+}
+footer .mentionsContact a, footer .mentionsContact  {
+  font-size: .6rem;
+
+}
+footer .mentionsContact a:visited {
+color: var(--color-secondary-light);
+}
 /*********************/
 /* tablette/desktop  */
 /*********************/
@@ -263,5 +306,24 @@ header {
     font-size: 0.8rem;
   }
 
+/* ****************
+**      footer   **
+*******************/
+footer .laius {
+  max-width: 33%;
+}
+footer .df {
+  max-width: 60%;
+}
+footer .dfparent {
+  flex-direction: row;
+}
+
+footer .dfparent .df {
+  justify-content: space-between;
+}
+footer .mentionsContact {
+  max-width: 100%;
+}
   /*fin responsive*/
 }
