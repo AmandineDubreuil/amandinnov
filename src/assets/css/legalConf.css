@@ -1,0 +1,29 @@
+h1, h2, h3 {
+    color: black;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem;
+}
+p {
+    margin: 1rem;
+}
+span {
+    font-weight: bold;
+}
+ol, ul {
+    margin-left: 3rem;
+}
+ol li{
+    list-style: decimal;
+
+}
+section ul li{
+    list-style: circle;
+
+}

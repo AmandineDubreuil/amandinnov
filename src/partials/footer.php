@@ -7,6 +7,6 @@
             </div>
     </div>
     <p class="df mentionsContact">
-        <a href="#">Mentions légales</a> &nbsp; - &nbsp; <a href="#">Contact</a>
+        <a href="./legal.php">Mentions légales</a> &nbsp; - &nbsp; <a href="./confidentialite.php">Politique de confidentialité</a>
     </p>
 </footer>
