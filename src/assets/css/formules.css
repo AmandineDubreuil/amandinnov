@@ -1,18 +1,5 @@
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .card {
-  position: relative;
-  width: 100%;
-  margin: 2rem 1rem;
-  padding: 2rem 1rem;
   background-color: var(--color-secondary-light);
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 .card .cardHeader .cardHeaderText {
   font-size: 1.5rem;
@@ -31,24 +18,10 @@
   text-align: center;
 }
 
-.card ul {
-  padding: 2rem 1.5rem;
-  padding-bottom: 5rem;
-}
-.card li {
-  padding-bottom: 0.5rem;
-  color: var(--color-secondary);
-}
 .card .green {
   color: var(--color-primary-light);
 }
 
-/* .card .contact {
-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .card button {
   position: absolute;
   bottom: 3rem;
@@ -96,25 +69,3 @@ width: 100%;
   transform: translateY(4px);
 }
 
-/********************
-/*tablette */
-/*******************/
-@media (min-width: 640px) {
-  /* formules.php*/
-
-  .card {
-    width: 45%;
-  }
-}
-
-/********************
-/*desktop */
-/*******************/
-@media (min-width: 800px) {
-  /* formules.php*/
-
-  .card {
-    width: 28%;
-    max-width: 300px;
-  }
-}
