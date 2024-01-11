@@ -16,7 +16,7 @@
 /* mise à 0*/
 :root {
   --color-primary: #99d959;
-  --color-primary-light: #ccf294;
+  --color-primary-light: rgb(204, 242, 148);
   --color-primary-extralight: #e7f2bd;
   --color-secondary: #5a6273;
   --color-secondary-70 : #5a6273b3;

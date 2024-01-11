@@ -1,0 +1,22 @@
+.card .cardBodyTitre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card h2 {
+  font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+.card .tag {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.2rem;
+  margin-bottom: .5rem;
+  background-color: var(--color-secondary-70);
+  border-radius: 5px;
+  font-size: 0.7rem;
+  color: var(--color-secondary-light);
+}
+.card .cardList {
+  padding-top: 1rem;
+}

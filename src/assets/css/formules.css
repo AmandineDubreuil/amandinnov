@@ -17,7 +17,13 @@
   color: black;
   text-align: center;
 }
-
+.card ul {
+  padding: 2rem 1.5rem;
+  padding-bottom: 5rem;
+}
+.card li {
+  color: var(--color-secondary);
+}
 .card .green {
   color: var(--color-primary-light);
 }
