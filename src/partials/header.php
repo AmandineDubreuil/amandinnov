@@ -15,14 +15,15 @@
                     </div>
                 </div>
                 <div class="logo">
-                    <img src="./assets/img/logo.png" alt="Amand'Innov">
+                    <a href="./index.php">
+                        <img src="./assets/img/logo.png" alt="Amand'Innov"></a>
                 </div>
                 <div class="masque">.</div>
             </div>
             <div class="deroulant hideNav">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="./formules.php">
                             Formules
                         </a>
                     </li>

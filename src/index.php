@@ -21,7 +21,7 @@
     <section class="entete">
         <div class="cadre"></div>
         <div class="text-entete">
-            <h1>Je conçois et développe <span>votre site Internet</span></h1>
+            <h1 id="accueil">Je conçois et développe <span>votre site Internet</span></h1>
             <p class="text-secondary">Du design à l'hébergement, je donne vie à la présence en ligne de votre entreprise, de manière unique et sur-mesure.</p>
 
         </div>

@@ -1,0 +1,123 @@
+section {
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  width: 100%;
+  margin: 2rem 1rem;
+  padding: 2rem 1rem;
+  background-color: var(--color-secondary-light);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.card .cardHeader .cardHeaderText {
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+  text-align: center;
+}
+.card .cardHeaderPrix {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.card .cardHeader h2 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+}
+
+.card ul {
+  padding: 2rem 1.5rem;
+  padding-bottom: 5rem;
+}
+.card li {
+  padding-bottom: 0.5rem;
+  color: var(--color-secondary);
+}
+.card .green {
+  color: var(--color-primary-light);
+}
+
+/* .card .contact {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.card button {
+  position: absolute;
+  bottom: 3rem;
+  left: 22%;
+  right: 22%;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 0.35s;
+}
+.card button span {
+  position: relative;
+  z-index: 2;
+}
+.card button:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 7px;
+  background-color: var(--color-secondary);
+  transition: all 0.35s;
+}
+
+.card button:hover {
+  color: var(--color-secondary-light);
+}
+.card button:hover::after {
+  width: 100%;
+
+}
+.card .borderGreen {
+  border-color: var(--color-primary);
+}
+.card .borderGreen::after {
+    background-color: var(--color-primary);
+}
+.card .borderGreen:hover {
+    color: black;
+}
+.card button:active {
+    transform: translateY(4px);
+
+}
+
+/********************
+/*tablette */
+/*******************/
+@media (min-width: 640px) {
+  /* formules.php*/
+
+  .card {
+    width: 45%;
+  }
+}
+
+/********************
+/*desktop */
+/*******************/
+@media (min-width: 800px) {
+  /* formules.php*/
+
+  .card {
+    width: 28%;
+  }
+}

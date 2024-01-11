@@ -13,13 +13,13 @@
   src: url(../font/RobotMono/static/RobotoMono-Regular.ttf);
 }
 
-
 /* mise à 0*/
 :root {
   --color-primary: #99d959;
   --color-primary-light: #ccf294;
   --color-primary-extralight: #e7f2bd;
   --color-secondary: #5a6273;
+  --color-secondary-70 : #5a6273b3;
   --color-secondary-light: #f2f2f2;
   --color-white: #ffffff;
 }
@@ -39,6 +39,9 @@ img {
 }
 
 /* général */
+section {
+  padding: 1rem;
+}
 .text-primary {
   color: var(--color-primary);
 }
@@ -56,30 +59,23 @@ img {
 .bold {
   font-weight: bold;
 }
+a,
+a:visited {
+  color: black;
+}
 
 /* général titres */
-h1 {
-  padding: 1rem;
-  font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  text-align: center;
-}
-h1 span {
-  font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  color: var(--color-primary);
-}
-h2, .h2{
+
+h1, h2,
+.h2 {
   padding: 1rem 0;
-  font-family: 'Roboto-Mono','Courier New', Courier, monospace;
+  font-family: "Roboto-Mono", "Courier New", Courier, monospace;
   color: var(--color-primary);
   font-size: 1.875rem;
 }
-h3{
+h3 {
   font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
   color: var(--color-primary);
-
 }
 /* header.php menu */
 
@@ -103,15 +99,14 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-
 }
 .top-menu p {
   margin: 0 1rem;
   color: var(--color-secondary);
-  font-size: .6rem;
+  font-size: 0.6rem;
 }
 .top-menu i {
-  font-size: .6rem;
+  font-size: 0.6rem;
 }
 
 /* menu */
@@ -196,42 +191,40 @@ header {
   display: none;
 }
 
-
 /* footer.php  */
 
 footer {
   background-color: var(--color-secondary);
   color: var(--color-secondary-light);
-  padding-top: 1rem ;
+  padding-top: 1rem;
 }
-footer .dfparent{
+footer .dfparent {
   padding: 1rem 3rem;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 footer .laius {
-  font-size: .7rem;
-  padding-bottom: .5rem;
+  font-size: 0.7rem;
+  padding-bottom: 0.5rem;
 }
-footer .dfparent{
+footer .dfparent {
   display: flex;
   flex-direction: column;
-
 }
 footer .dfparent .df {
   width: 80vw;
   justify-content: space-between;
 }
 footer .mentionsContact {
-  padding-bottom: .7rem;
+  padding-bottom: 0.7rem;
 }
-footer .mentionsContact a, footer .mentionsContact  {
-  font-size: .6rem;
-
+footer .mentionsContact a,
+footer .mentionsContact {
+  font-size: 0.6rem;
 }
 footer .mentionsContact a:visited {
-color: var(--color-secondary-light);
+  color: var(--color-secondary-light);
 }
 /*********************/
 /* tablette/desktop  */
@@ -306,24 +299,24 @@ color: var(--color-secondary-light);
     font-size: 0.8rem;
   }
 
-/* ****************
+  /* ****************
 **      footer   **
 *******************/
-footer .laius {
-  max-width: 33%;
-}
-footer .df {
-  max-width: 60%;
-}
-footer .dfparent {
-  flex-direction: row;
-}
+  footer .laius {
+    max-width: 33%;
+  }
+  footer .df {
+    max-width: 60%;
+  }
+  footer .dfparent {
+    flex-direction: row;
+  }
 
-footer .dfparent .df {
-  justify-content: space-between;
-}
-footer .mentionsContact {
-  max-width: 100%;
-}
+  footer .dfparent .df {
+    justify-content: space-between;
+  }
+  footer .mentionsContact {
+    max-width: 100%;
+  }
   /*fin responsive*/
 }
