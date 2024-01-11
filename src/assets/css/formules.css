@@ -1,5 +1,3 @@
-section {
-}
 .cards {
   display: flex;
   flex-direction: row;
@@ -84,20 +82,18 @@ width: 100%;
 }
 .card button:hover::after {
   width: 100%;
-
 }
 .card .borderGreen {
   border-color: var(--color-primary);
 }
 .card .borderGreen::after {
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
 }
 .card .borderGreen:hover {
-    color: black;
+  color: black;
 }
 .card button:active {
-    transform: translateY(4px);
-
+  transform: translateY(4px);
 }
 
 /********************
@@ -119,5 +115,6 @@ width: 100%;
 
   .card {
     width: 28%;
+    max-width: 300px;
   }
 }
