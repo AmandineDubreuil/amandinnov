@@ -10,6 +10,7 @@
     <link href="./assets/css/index.css" rel="stylesheet">
 
     <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/modaleContact.js" defer></script>
     <script src="./assets/js/showHide.js" defer></script>
     <script src="./assets/js/intersect.js" defer></script>
 
@@ -17,6 +18,7 @@
 
 <body>
     <?php require_once './partials/header.php' ?>
+    <?php require_once './partials/contact/contactFonctions.php' ?>
 
     <section class="entete">
         <div class="cadre"></div>
@@ -42,8 +44,8 @@
                 <h3 id="design"><i class="fa-solid fa-display"></i> Responsive Design</h3>
                 <p id="detailDesign" class="reveal">Les temps ont changé, et votre site doit s’adapter. Tous nos sites internet sont conçus avec une approche “responsive”, garantissant une expérience fluide et attrayante, quel que soit le dispositif utilisé par vos visiteurs</p>
             </div>
-            <div class="grille6 sm-hidden">
-                <img src="./assets/img/responsive.jpg" alt="responsive">
+            <div class="grille4 sm-hidden">
+                <img src="./assets/img/ordinateur.png" alt="responsive">
             </div>
             <div class="service ecouteDiv intersectright grille3">
                 <h3 id="ecoute" ><i class="fa-solid fa-microphone"></i> Écoute et Adaptabilité</h3>

@@ -46,7 +46,7 @@
                 <h2>Formule Vitrine</h2>
             </div>
             <ul class="cardList">
-                <li><span class="green"><i class="fa-solid fa-circle-check"></i></span> Site vitrine 3 pages</li>
+                <li><span class="green"><i class="fa-solid fa-circle-check"></i></span> Site vitrine multi-pages</li>
                 <li><i class="fa-solid fa-circle-check"></i> Site adapté tous écrans</li>
                 <li><i class="fa-solid fa-circle-check"></i> Page d'accueil</li>
                 <li><span class="green"><i class="fa-solid fa-circle-check"></i></span> Pages complémentaires développées sur-mesure</li>

@@ -9,15 +9,22 @@ section {
 
 .entete {
   position: relative;
+  z-index: -2;
   overflow: hidden;
   padding-top: 0;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: stretch;
+  background-image: url(../img/abstrait-clair.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 .entete .cadre {
   position: absolute;
+  background-color: var(--color-white);
   z-index: -1;
   top: 0;
   width: 100vw;
@@ -72,7 +79,7 @@ section {
 
 .entete .fleche {
   position: absolute;
-  bottom: 5rem;
+  bottom: 3rem;
   margin: 0 auto;
 }
 .entete .fleche i {
@@ -160,19 +167,40 @@ section {
     gap: 1rem;
   }
   #services .service {
-    height: 10rem;
+    height: 7rem;
   }
-  #services .grille6 {
+  /* #services .grille6 {
     grid-column: span 6 / span 6;
   }
   #services .grille3 {
     grid-column: span 3 / span 3;
   }
   #services .grille4 {
+    grid-column: 4 / 9;
+  } */
+  #services .conceptionDiv {
+    grid-column: 1 / 6;
+  }
+  #services .utilisateurDiv {
+    grid-column: 7 / 13;
+  }
+  #services .designDiv {
+    grid-column: 1 / 4;
+  }
+  #services .ecouteDiv {
+    grid-column: 10 / 13;
+  }
+  #services .optimisationDiv {
     grid-column: 5 / 9;
   }
   #services .sm-hidden {
     display: block;
+    width: 36vw;
+    grid-column: 5 / 8;
+
+  }
+    #services img {
+    border-radius: 5px;
   }
   #services .service .reveal {
     opacity: 0;
@@ -183,6 +211,7 @@ section {
     transform: translateX(0px);
     transition: 0.5s;
   }
+
   .intersectright {
     animation: slideinright 6s;
     text-align: right;

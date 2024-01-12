@@ -1,7 +1,11 @@
+section {
+  max-width: 1200px;
+}
+
 .card .cardBodyTitre {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .card h2 {
   font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
@@ -11,7 +15,7 @@
   width: fit-content;
   height: fit-content;
   padding: 0.2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   background-color: var(--color-secondary-70);
   border-radius: 5px;
   font-size: 0.7rem;

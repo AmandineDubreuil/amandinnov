@@ -33,11 +33,10 @@
                         </a>
                     </li>
                 </ul>
-                <div class="contact">
-                    <a href="#_">
-                        Contact
-                    </a>
+                <div class="buttonContact">
+                    <button class="contact btnAdd modal-trigger modal-btn">Contact</button>
                 </div>
+
             </div>
         </div>
     </nav>
