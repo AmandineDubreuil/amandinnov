@@ -182,14 +182,13 @@ header {
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
-
-.menu .deroulant li a {
-  position: relative;
-  padding: 0.5rem 1rem;
+.menu .deroulant li:first-child {
+  margin-top: 2rem;
+}
+.menu .link {
   font-family: "Roboto-Mono", "Courier New", Courier, monospace;
   font-size: 1rem;
 }
-
 /* menu bouton contact */
 .menu .contact {
   display: none;
@@ -314,7 +313,7 @@ footer .dfparent {
 .dfparent .laius,
 .dfparent .adresse,
 .dfparent .reseaux {
- padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .dfparent .adresse p,
@@ -391,13 +390,39 @@ footer .mentionsContact a:visited {
     flex-direction: row;
     justify-content: center;
   }
+  .menu .deroulant li:first-child {
+    margin-top: 0.5rem;
+  }
   .menu .deroulant li {
     width: 25%;
     padding-left: 0;
     padding-bottom: 0;
+    margin: 0.5rem 1rem;
     text-align: center;
   }
+  /* link menu */
+  .menu .link {
+    position: relative;
+    z-index: 1;
+    font-size: 1.1rem;
+  }
 
+  .menu .link::before {
+    content: "";
+    background-color: var(--color-primary-light);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 5px;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu .link:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
   .menu .deroulant .buttonContact {
     width: 23vw;
     display: flex;

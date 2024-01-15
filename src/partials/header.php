@@ -1,8 +1,10 @@
 <header>
     <nav class="nav ">
         <div class=" top-menu">
-            <p><span class="text-primary"><i class="fa-solid fa-mobile-screen-button"></i></span> 06.63.10.78.04</p>
-            <p><span class="text-primary"><i class="fa-regular fa-envelope"></i></span> amandine.dubreuil@hotmail.com</p>
+            <a href="tel:0663107804"><p><span class="text-primary"><i class="fa-solid fa-mobile-screen-button"></i></span> 06.63.10.78.04</p></a>
+            <a href="mailto: amandine.dubreuil@hotmail.com">
+                <p><span class="text-primary"><i class="fa-regular fa-envelope"></i></span> amandine.dubreuil@hotmail.com</p>
+            </a>
         </div>
         <div class="menu">
             <div class="logo-bars">
@@ -23,12 +25,12 @@
             <div class="deroulant hideNav">
                 <ul>
                     <li>
-                        <a href="./formules.php">
+                        <a class="link" href="./formules.php">
                             Formules
                         </a>
                     </li>
                     <li>
-                        <a href="./realisations.php">
+                        <a class="link" href="./realisations.php">
                             Réalisations
                         </a>
                     </li>
