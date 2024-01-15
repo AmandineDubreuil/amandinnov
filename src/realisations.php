@@ -12,11 +12,14 @@
 
 
     <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/modaleContact.js" defer></script>
 
 </head>
 
 <body>
     <?php require_once './partials/header.php' ?>
+    <?php require_once './partials/contact/contactFonctions.php' ?>
+
     <section class="entete">
         <h1>Réalisations</h1>
     </section>

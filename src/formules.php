@@ -11,11 +11,14 @@
     <link href="./assets/css/formules.css" rel="stylesheet">
 
     <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/modaleContact.js" defer></script>
 
 </head>
 
 <body>
     <?php require_once './partials/header.php' ?>
+    <?php require_once './partials/contact/contactFonctions.php' ?>
+
     <section class="entete">
         <h1>Les formules proposées</h1>
         <p>Chaque formule peut être adaptée selon vos besoins, n'hésitez pas à me contacter pour un devis personnalisé et gratuit.</p>
@@ -37,7 +40,7 @@
                 <li><i class="fa-solid fa-circle-check"></i> Mise en ligne du site</li>
                 <li><i class="fa-solid fa-circle-check"></i> Formation à l'utilisation du site</li>
             </ul>
-           <button><span>Demander un devis</span></button>
+           <button class="contact btnAdd modal-trigger modal-btn"><span>Demander un devis</span></button>
         </div>
         <div class="card">
             <div class="cardHeader">
@@ -58,7 +61,7 @@
                 <li><i class="fa-solid fa-circle-check"></i> Mise en ligne du site</li>
                 <li><span class="green"><i class="fa-solid fa-circle-check"></i></span> Formation à l'utilisation du site</li>
             </ul>
-            <button class="borderGreen"><span>Demander un devis</span></button>
+            <button class="borderGreen contact btnAdd modal-trigger modal-btn" ><span>Demander un devis</span></button>
         </div>
         <div class="card">
             <div class="cardHeader">
@@ -79,7 +82,7 @@
                 <li><i class="fa-solid fa-circle-check"></i> Mise en ligne du site</li>
                 <li><i class="fa-solid fa-circle-check"></i> Formation à l'utilisation du site</li>
             </ul>
-            <button><span>Demander un devis</span></button>
+            <button class="contact btnAdd modal-trigger modal-btn"><span>Demander un devis</span></button>
         </div>
     </section>
     <?php require_once './partials/footer.php' ?>

@@ -32,7 +32,7 @@
 				<textarea name="message" id="message" cols="30" rows="10" class="form-control rounded-1" required="required"></textarea>
 			</div>
 			<div class="groupeBtn">
-				<input type="submit" value="Envoyer" name="submitContact" class="btn btnOk">
+				<input type="submit" value="Envoyer" name="submitContact" class="btn btnOk" id="submitContact">
 			</div>
 		</form>
 		<p class="grey"><sup class="star">*</sup> : champs requis</p>
