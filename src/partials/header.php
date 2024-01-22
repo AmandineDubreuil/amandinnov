@@ -3,7 +3,7 @@
         <div class=" top-menu">
             <a href="tel:0663107804"><p><span class="text-primary"><i class="fa-solid fa-mobile-screen-button"></i></span> 06.63.10.78.04</p></a>
             <a href="mailto: amandine.dubreuil@hotmail.com">
-                <p><span class="text-primary"><i class="fa-regular fa-envelope"></i></span> amandine.dubreuil@hotmail.com</p>
+                <p><span class="text-primary"><i class="fa-regular fa-envelope"></i></span> contact@amandinnov.fr</p>
             </a>
         </div>
         <div class="menu">
@@ -36,7 +36,7 @@
                     </li>
                 </ul>
                 <div class="buttonContact">
-                    <button class="contact btnAdd modal-trigger modal-btn">Contact</button>
+                    <a href="./contact/contactFonctions.php"><button class="contact btnAdd modal-trigger modal-btn">Contact</button></a>
                 </div>
 
             </div>
