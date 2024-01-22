@@ -9,14 +9,14 @@ section {
 
 .entete {
   position: relative;
-  z-index: -2;
+  z-index: 1;
   overflow: hidden;
   padding-top: 0;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: stretch;
-  background-image: url(../img/abstrait-clair.webp);
+  background-image: url(../img/abstrait-clair2light.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -25,7 +25,7 @@ section {
 .entete .cadre {
   position: absolute;
   background-color: var(--color-white);
-  z-index: -1;
+  z-index: 2;
   top: 0;
   width: 100vw;
   max-width: 600px;
@@ -51,6 +51,7 @@ section {
   color: var(--color-primary);
 }
 .entete .text-entete {
+  z-index: 3;
   padding: 0 1rem;
   height: 100vw;
   max-height: 80vh;
@@ -79,6 +80,7 @@ section {
 
 .entete .fleche {
   position: absolute;
+  z-index: 3;
   bottom: 3rem;
   margin: 0 auto;
 }

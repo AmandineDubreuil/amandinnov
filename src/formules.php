@@ -27,7 +27,7 @@
         <div class="card">
             <div class="cardHeader">
                 <p class="cardHeaderText">à partir de</p>
-                <p class="cardHeaderPrix">850 €</p>
+                <p class="cardHeaderPrix">695 €</p>
                 <h2>Formule Essentiel</h2>
             </div>
             <ul class="cardList">
@@ -45,8 +45,8 @@
         <div class="card">
             <div class="cardHeader">
                 <p class="cardHeaderText">à partir de</p>
-                <p class="cardHeaderPrix">1299 €</p>
-                <h2>Formule Vitrine</h2>
+                <p class="cardHeaderPrix">1190 €</p>
+                <h2>Formule Site Vitrine</h2>
             </div>
             <ul class="cardList">
                 <li><span class="green"><i class="fa-solid fa-circle-check"></i></span> Site vitrine multi-pages</li>
@@ -67,7 +67,7 @@
             <div class="cardHeader">
                 <p class="cardHeaderText">à partir de</p>
                 <p class="cardHeaderPrix">3000 €</p>
-                <h2>Formule E-commerce</h2>
+                <h2>Formule Site E-commerce</h2>
             </div>
             <ul class="cardList">
                 <li><span class="green"><i class="fa-solid fa-circle-check"></i></span> Site e-commerce</li>

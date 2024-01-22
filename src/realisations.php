@@ -103,35 +103,6 @@
                 </div>
             </a>
         </div>
-        <div class="card">
-            <a href="#" target="blank">
-                <div class="cardHeader">
-                    <img src="./assets/img/lechalprev.jpg" alt="site lechal'Prev.fr">
-
-                </div>
-                <div class="cardBody">
-                    <div class="cardBodyTitre">
-                        <h2>Lechal'Prév</h2>
-                        <p class="tag">Site vitrine</p>
-                    </div>
-                    <p>Site vitrine d'un organisme de formation</p>
-                    <ul class="cardList">
-                        <li><span class="check"><img src="./assets/img/check-primary-light.png" alt="checked"></span> 5 pages</li>
-                        <li><span class="check"><img src="./assets/img/check-primary-light.png" alt="checked"></span> Site adapté tous écrans</li>
-                        <li><span class="check"><img src="./assets/img/check-primary-light.png" alt="checked"></span> Formulaire de contact
-                        </li>
-                        <li><span class="check"><img src="./assets/img/check-primary-light.png" alt="checked"></span> Formations sous forme de cards</li>
-                        <li><span class="check"><img src="./assets/img/check-primary-light.png" alt="checked"></span> Sous-titre dynamique sur la page d'accueil</li>
-                        <li><span class="check"><img src="./assets/img/check-primary-light.png" alt="checked"></span> Interface administrateur pour gérer :
-                            <ul>
-                                <li>Les formations</li>
-                                <li>L'équipe</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </a>
-        </div>
 
     </section>
     <?php require_once './partials/footer.php' ?>
