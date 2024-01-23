@@ -137,11 +137,15 @@ section {
 
 /* section deroulement */
 
-#deroulement div {
+#deroulement .etapes {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+#deroulement .etapes .deroulementText p {
+  margin-top: .5rem;
 }
 
 /********************
@@ -222,14 +226,16 @@ section {
 
 /* section deroulement*/
 
-  #deroulement div {
-    flex-direction: row;
-    align-items: center;
+  #deroulement .etapes {
+    /* flex-direction: row; */
+    align-items: flex-start;
   }
 
-  #deroulement .deroulementText {
+  .etapes .deroulementText {
     padding-left: 2rem;
+
     
   }
+
   /*fin responsive*/
 }

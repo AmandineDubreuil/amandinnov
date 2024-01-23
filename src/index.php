@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16"  href="./assets/img/favicon/favicon-16x16.png">
     <title>Amand'Innov</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,7 +30,7 @@
             <p class="text-secondary">Du design à l'hébergement, je donne vie à la présence en ligne de votre entreprise, de manière unique et sur-mesure.</p>
 
         </div>
-        <div class="fleche bounce"><a href="#services" class="" ><i class="fa-solid fa-circle-chevron-down"></i></a></div>
+        <div class="fleche bounce"><a href="#services" class=""><i class="fa-solid fa-circle-chevron-down"></i></a></div>
     </section>
     <section id="services" class="">
         <h2>Les services proposés :</h2>
@@ -64,30 +66,30 @@
 
     <section id="deroulement">
         <h2>Déroulement d'un projet</h2>
-        <div class="">
+        <div class="etapes">
             <p class="h2">Étape 01</p>
             <p class="deroulementText">Un premier rendez-vous pour faire connaissance et élaborer le <span class="bold">cahier des charges</span>.Il s’agit de découvrir votre projet, lister vos besoins, détailler les fonctionnalités souhaitées, et vous faire des propositions innovantes. Cette étape est primordiale car elle permet de mettre au clair toutes les informations nécessaires pour la mise en route du projet. Suite à ce rendez-vous, un <span class="bold">devis</span> sera établi sur la base de nos échanges.</p>
         </div>
-        <div>
+        <div class="etapes">
             <p class="h2">Étape 02</p>
             <p class="deroulementText">A cette étape, je vous réalise un <span class="bold">wireframe</span> qui représente la trame en noir et blanc de votre site Internet. Il vous aide à visualiser la structure de votre site, et l’organisation des différents composants à l’intérieur de celui-ci. Nous réalisons ensemble les éventuelles modifications, afin de finaliser le squelette de votre site.</p>
         </div>
-        <div>
+        <div class="etapes">
             <p class="h2">Étape 03</p>
             <p class="deroulementText">Ensuite, je définis l'<span class="bold">identité visuelle</span> de votre site (charte graphique, nuancier de couleurs, typologies...) pour que celui-ci soit beau, pratique et intuitif. Nous obtenons ainsi une <span class="bold">maquette</span> couleurs avec laquelle vous pourrez intéragir. Celle-ci doit refléter l'identité de votre entreprise.</p>
         </div>
-        <div>
+        <div class="etapes">
             <p class="h2">Étape 04</p>
             <div class="deroulementText">
                 <p>Une fois la maquette validée, je passe à l’ <span class="bold">intégration</span>, c’est à dire le développement pur et à l'animation de votre projet à l’aide de différents langages (HTML, CSS, JavaScript).</p>
                 <p>Si le projet le nécessite, je m’occupe du <span class="bold">développement des fonctionnalités</span> du site. Lors de cette étape, j’utilise des langages de programmation tels que PHP ou JavaScript, ainsi que mon framework de prédilection : Symfony.</p>
             </div>
         </div>
-        <div>
+        <div class="etapes">
             <p class="h2">Étape 05</p>
-            <p class="deroulementText">Une fois le projet finalisé, je vous <span class="bold"></span> montre comment vous pourrez mettre à jour le contenu de votre site en toute simplicité grâce à l'interface intuitive que je vous aurai créée, puis je vous remets les codes d’accès. Si vous le souhaitez, je peux m’occuper de sa mise en ligne.</p>
+            <p class="deroulementText">Une fois le projet finalisé, <span class="bold">je vous montre comment vous pourrez mettre à jour</span> le contenu de votre site en toute simplicité grâce à l'interface intuitive que je vous aurai créée, puis je vous remets les codes d’accès. Si vous le souhaitez, je peux m’occuper de sa mise en ligne.</p>
         </div>
-        <div>
+        <div class="etapes">
             <p class="h2">Étape 06</p>
             <div class="deroulementText">
                 <p>Félicitations !</p>
