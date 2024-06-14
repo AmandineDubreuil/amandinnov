@@ -1,9 +1,7 @@
 <?php
-
 session_start();
 require_once './inc/fonctions.php';
-//dd(isset($_POST['submitContact']));
-if (isset($_POST['submitContact'])) {
+if (isset($_POST['send'])) {
     // extraction des variables
     extract($_POST);
     // vérif si existe
@@ -29,7 +27,6 @@ if (isset($_POST['submitContact'])) {
         $message = "  
         <p>Vous avez reçu un nouveau message de <strong>" . $nom . "</strong> :</p>
         <br>
-        <p><strong>Société :</strong> " . $societe . "</p>
         <p><strong>Nom :</strong> " . $nom . "</p>
         <p><strong>E-mail :</strong> " . $email . "</p>
         <p><strong>Téléphone :</strong> " . $phone . "</p>
@@ -49,6 +46,7 @@ if (isset($_POST['submitContact'])) {
 
         $send = mail($to, $subject, $message, $headers);
         // vérification de l'envoi
+
         if ($send) {
             $info = 'Message Envoyé';
             $color = 'green';
@@ -62,9 +60,8 @@ if (isset($_POST['submitContact'])) {
         $info = 'Veuillez remplir tous les champs !';
         $color = "red";
     }
-
 }
 
 
 // fin
-include './partials/contact/contactForm.php';
+include './contact/contactForm.php';

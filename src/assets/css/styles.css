@@ -19,7 +19,7 @@
   --color-primary-light: rgb(204, 242, 148);
   --color-primary-extralight: #e7f2bd;
   --color-secondary: #5a6273;
-  --color-secondary-70: #5a6273b3;
+  --color-secondary-70: #8d99b2;
   --color-secondary-light: #f2f2f2;
   --color-white: #ffffff;
 }
@@ -133,7 +133,7 @@ header {
 }
 
 .menu .logo-bars .bars {
-  width: 24vw;
+  /* width: 24vw; */
   padding-left: 1rem;
   height: 1.5rem;
 }
@@ -142,16 +142,16 @@ header {
   line-height: 1.75rem;
   color: var(--color-primary);
 }
-.menu .logo-bars .logo {
-  width: 50vw;
-}
+/* .menu .logo-bars .logo {
+   width: 50vw; 
+} */
 .menu .logo-bars .logo img {
   width: 7rem;
   margin-left: auto;
   margin-right: auto;
 }
 .menu .logo-bars .masque {
-  width: 24vw;
+  /* width: 24vw; */
   color: var(--color-white);
 }
 
@@ -300,60 +300,59 @@ header {
   text-align: center;
 } */
 #submitContact {
-  outline:none;
+  outline: none;
   height: 40px;
   text-align: center;
   width: 130px;
-  border-radius:5px;
+  border-radius: 5px;
   background: var(--color-white);
   border: 2px solid var(--color-primary);
   color: var(--color-primary);
-  letter-spacing:1px;
-  text-shadow:0;
+  letter-spacing: 1px;
+  text-shadow: 0;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.25s ease;
 }
- 
+
 #submitContact:hover {
-    color:var(--color-white);
-    background: var(--color-primary);
-  }
-  #submitContact:active {
-   letter-spacing: 2px;
-  }
-  #submitContact:after {
-    content:"Envoyer";
-  }
-
-.onclic {
-  width: 40px;
-  border-color:var(--color-secondary);
-  border-width:3px;
-  font-size:0;
-  border-left-color:var(--color-primary);
-  animation: rotating 2s 0.25s linear infinite;
-}
- .onclic:after {
-    content:"";
-  }
-  .onclic:hover {
-    color:var(--color-primary);
-    background: var(--color-white);
-  }
-
-.validate {
-  font-size:1.1rem;
   color: var(--color-white);
   background: var(--color-primary);
 }
-  
- .validate:after {
-    font-family:'FontAwesome';
-    content:"\f00c";
-  }
+#submitContact:active {
+  letter-spacing: 2px;
+}
+#submitContact:after {
+  content: "Envoyer";
+}
 
+.onclic {
+  width: 40px;
+  border-color: var(--color-secondary);
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: var(--color-primary);
+  animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: var(--color-primary);
+  background: var(--color-white);
+}
+
+.validate {
+  font-size: 1.1rem;
+  color: var(--color-white);
+  background: var(--color-primary);
+}
+
+.validate:after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
 
 @keyframes rotating {
   from {
@@ -369,43 +368,38 @@ header {
 ****************/
 footer {
   background-color: var(--color-secondary);
-  color: var(--color-secondary-light);
+  color: var(--color-secondary-70) ;
   padding-top: 1rem;
 }
 footer .dfparent {
   padding: 1rem 3rem;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
-
+.dfparent .logo-gris {
+  max-width: 6rem;
+}
+footer .sitemap a{
+  color: var(--color-secondary-70) ;
+}
 footer .laius {
-  font-size: 0.7rem;
-  padding-bottom: 0.5rem;
-}
-footer .dfparent {
-  display: flex;
-  flex-direction: column;
-}
-.dfparent .laius,
-.dfparent .adresse,
-.dfparent .reseaux {
-  padding-top: 1rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
 }
 
-.dfparent .adresse p,
-.dfparent .reseaux p {
-  font-size: 0.7rem;
-}
 footer .mentionsContact {
   padding-bottom: 0.7rem;
 }
 footer .mentionsContact a,
 footer .mentionsContact {
   font-size: 0.6rem;
-  color: var(--color-secondary-light);
+  color: var(--color-secondary-70) ;
 }
 footer .mentionsContact a:visited {
-  color: var(--color-secondary-light);
+  color: var(--color-secondary-70) ;
 }
 /*********************/
 /* tablette/desktop  */
@@ -517,30 +511,12 @@ footer .mentionsContact a:visited {
   /* ****************
 **      footer   **
 *******************/
-  footer .laius {
-    width: 28vw;
-  }
-  footer .df {
-    max-width: 60%;
-  }
+
   footer .dfparent {
     flex-direction: row;
   }
-  .dfparent .adresse,
-  .dfparent .reseaux {
-    width: 28vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .dfparent .reseaux p {
-    letter-spacing: 0.2rem;
-  }
-  footer .dfparent .df {
-    justify-content: space-between;
-  }
+
   footer .mentionsContact {
     max-width: 100%;
   }

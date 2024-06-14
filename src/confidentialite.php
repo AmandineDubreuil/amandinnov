@@ -2,9 +2,29 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P6HGCQNJ');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de confidentialité - Amand'Innov</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+
+    <title>Politique de confidentialité - Amand'Innov Web</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./assets/css/styles.css" rel="stylesheet">
     <link href="./assets/css/legalConf.css" rel="stylesheet">
@@ -14,6 +34,9 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6HGCQNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <?php require_once './partials/header.php' ?>
     <section>
         <h1>Politique de confidentialité</h1>
@@ -33,7 +56,7 @@
             <li>La politique de cookies du site</li>
         </ol>
 
-<br>
+        <br>
         <h3>Lois applicables</h3>
 
         <p>Conformément au
@@ -103,7 +126,7 @@
 
         <h3>Avec qui nous partageons les données personnelles</h3>
         <p>
-            Nous ne partageons pas vos renseignements personnels avec des entreprises, des organisations, ni des personnes extérieures à Amand'Innov, à l'exception de nos fournisseurs et partenaires autorisés qui ont besoin d’avoir accès aux renseignements pour les fins énumérées à la présente politique et dans les limites de celle-ci, ainsi que dans les cas suivants :
+            Nous ne partageons pas vos renseignements personnels avec des entreprises, des organisations, ni des personnes extérieures à Amand'Innov Web, à l'exception de nos fournisseurs et partenaires autorisés qui ont besoin d’avoir accès aux renseignements pour les fins énumérées à la présente politique et dans les limites de celle-ci, ainsi que dans les cas suivants :
         </p>
         <ol>
             <li>Avec votre consentement;</li>
@@ -189,6 +212,29 @@
 
     <?php require_once './partials/footer.php' ?>
 
+<script>
+        window.axeptioSettings = {
+            clientId: "666a9dbab7a0a9ce6ae45182",
+            cookiesVersion: "amandinnov-fr-EU",
+            googleConsentMode: {
+                default: {
+                    analytics_storage: "denied",
+                    ad_storage: "denied",
+                    ad_user_data: "denied",
+                    ad_personalization: "denied",
+                    wait_for_update: 500
+                }
+            }
+        };
+
+        (function(d, s) {
+            var t = d.getElementsByTagName(s)[0],
+                e = d.createElement(s);
+            e.async = true;
+            e.src = "//static.axept.io/sdk.js";
+            t.parentNode.insertBefore(e, t);
+        })(document, "script");
+    </script>
 </body>
 
 </html>

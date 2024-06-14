@@ -2,9 +2,18 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6HGCQNJ');</script>
+<!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentions légales - Amand'Innov</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="./assets/img/favicon/favicon-16x16.png">
+
+    <title>Mentions légales - Amand'Innov Web</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./assets/css/styles.css" rel="stylesheet">
     <link href="./assets/css/legalConf.css" rel="stylesheet">
@@ -14,6 +23,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6HGCQNJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <?php require_once './partials/header.php' ?>
     <section>
 
@@ -28,7 +41,7 @@
         <p>
         <ul>
             <li>Nom du propriétaire :
-                <strong>Amand'Innov</strong>
+                <strong>Amand'Innov Web</strong>
             </li>
             <li>Adresse postale du titulaire :
                 <strong>20 route Neuve - 76240 BONSECOURS</strong>
@@ -70,21 +83,21 @@
         <br>
         <p>Le site
             <strong>amandinnov.fr</strong>
-            réuni différents services, en l'état, disponibles pour les utilisateurs. Il est naturellement précisé que ces derniers doivent rester honnêtes et faire preuve de bonne foi tant envers les différents usagés qu'envers le Réalisateur du site amandinnov.fr. Le site amandinnov.fr est mis à jour de façon régulière par Amand'Innov.
+            réuni différents services, en l'état, disponibles pour les utilisateurs. Il est naturellement précisé que ces derniers doivent rester honnêtes et faire preuve de bonne foi tant envers les différents usagés qu'envers le Réalisateur du site amandinnov.fr. Le site amandinnov.fr est mis à jour de façon régulière par Amand'Innov Web.
         </p>
         <br>
-        <p>Amand'Innov s'efforce d'offrir sur le site suivant amandinnov.fr des informations les plus véridiques possibles (sous réserve de modifications apportées depuis leur mise en ligne), mais ne saurait assurer l'exactitude, la finitude et l'actualité des informations diffusées sur son site internet, qu'elles soient de son fait ou non. En répercussion, l'utilisateur reconnaît utiliser ces informations données (à titre indicatif, non exhaustives et susceptibles d'évoluer) sous son unique responsabilité.</p>
+        <p>Amand'Innov Web s'efforce d'offrir sur le site suivant amandinnov.fr des informations les plus véridiques possibles (sous réserve de modifications apportées depuis leur mise en ligne), mais ne saurait assurer l'exactitude, la finitude et l'actualité des informations diffusées sur son site internet, qu'elles soient de son fait ou non. En répercussion, l'utilisateur reconnaît utiliser ces informations données (à titre indicatif, non exhaustives et susceptibles d'évoluer) sous son unique responsabilité.</p>
 
         <h2>3. Accessibilité Numérique :</h2>
         <p>
-            Le site amandinnov.fr est par principe accessible aux utilisateurs H24 7/7, sauf en cas d'interruption, prévue ou pas, pour les besoins de maintenance ou force majeure. En cas d'impossibilité d'accès au service, Amand'Innov s'engage à faire son maximum pour rétablir l'accès au site web et tentera alors de communiquer au préalable aux utilisateurs les Dates & heures de l'intervention. N'étant subordonné qu'à une redevance de moyen, Amand'Innov ne pourrait être designé comme responsable des dommages, peu importe sa nature.</p>
+            Le site amandinnov.fr est par principe accessible aux utilisateurs H24 7/7, sauf en cas d'interruption, prévue ou pas, pour les besoins de maintenance ou force majeure. En cas d'impossibilité d'accès au service, Amand'Innov Web s'engage à faire son maximum pour rétablir l'accès au site web et tentera alors de communiquer au préalable aux utilisateurs les Dates & heures de l'intervention. N'étant subordonné qu'à une redevance de moyen, Amand'Innov Web ne pourrait être designé comme responsable des dommages, peu importe sa nature.</p>
 
 
         <h2>4. Droit de propriété intellectuelle :</h2>
         <p>
-            Amand'Innov est le propriétaire exclusif de tous les droits de propriété intellectuelle ou détient les droits d'usage sur tous les éléments accessibles sur le site internet, tant structurellement que sur les textes, images, graphismes, logo, bande sonore, logiciels etc…</p>
+            Amand'Innov Web est le propriétaire exclusif de tous les droits de propriété intellectuelle ou détient les droits d'usage sur tous les éléments accessibles sur le site internet, tant structurellement que sur les textes, images, graphismes, logo, bande sonore, logiciels etc…</p>
         <p>
-            Toute reproduction même partielle du site amandinnov.fr, représentation, modification, adaptation totalement ou partiellement de l'un de ces éléments, quel que soit le moyen ou la technique utilisé, est formellement interdite, excepté acceptation écrite préalable de Amand'Innov, directeur du site à l'email : contact@amandinnov.fr, à défaut elle sera considérée comme constitutive d'une contrefaçon et passible de poursuites conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
+            Toute reproduction même partielle du site amandinnov.fr, représentation, modification, adaptation totalement ou partiellement de l'un de ces éléments, quel que soit le moyen ou la technique utilisé, est formellement interdite, excepté acceptation écrite préalable de Amand'Innov Web, directeur du site à l'email : contact@amandinnov.fr, à défaut elle sera considérée comme constitutive d'une contrefaçon et passible de poursuites conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
 
 
         <h2>5. Crédits :</h2>
@@ -106,7 +119,29 @@
 
 
     <?php require_once './partials/footer.php' ?>
+<script>
+        window.axeptioSettings = {
+            clientId: "666a9dbab7a0a9ce6ae45182",
+            cookiesVersion: "amandinnov-fr-EU",
+            googleConsentMode: {
+                default: {
+                    analytics_storage: "denied",
+                    ad_storage: "denied",
+                    ad_user_data: "denied",
+                    ad_personalization: "denied",
+                    wait_for_update: 500
+                }
+            }
+        };
 
+        (function(d, s) {
+            var t = d.getElementsByTagName(s)[0],
+                e = d.createElement(s);
+            e.async = true;
+            e.src = "//static.axept.io/sdk.js";
+            t.parentNode.insertBefore(e, t);
+        })(document, "script");
+    </script>
 </body>
 
 </html>

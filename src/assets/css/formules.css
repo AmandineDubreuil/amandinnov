@@ -79,3 +79,8 @@ section {
   transform: translateY(4px);
 }
 
+.card .exposant {
+
+ 
+  font-size: .7rem;
+}
