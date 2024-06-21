@@ -36,7 +36,7 @@
                     </li>
                 </ul>
                 <div class="buttonContact">
-                    <button class="contact btnAdd modal-trigger modal-btn">Contact</button>
+                    <a href="./contact/contactFonctions.php"><button class="contact btnAdd modal-trigger modal-btn">Contact</button></a>
                 </div>
 
             </div>
